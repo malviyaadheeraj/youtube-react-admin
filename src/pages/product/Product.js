@@ -1,5 +1,5 @@
 import React from "react";
-import "./Product.css";
+import "./Product.scss";
 import { Link } from "react-router-dom";
 import Chart from "../../components/chart/Chart";
 import { productData } from "../../dummyData";

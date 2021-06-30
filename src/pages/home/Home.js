@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 import { userData } from "../../dummyData";
 import Chart from "../../components/chart/Chart";
 import FeaturedInfo from "../../components/featuredinfo/FeaturedInfo";

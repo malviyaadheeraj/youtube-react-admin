@@ -1,5 +1,5 @@
 import React from "react";
-import "./Topbar.css";
+import "./Topbar.scss";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "../../features/userSlice";

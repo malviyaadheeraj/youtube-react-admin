@@ -1,5 +1,5 @@
 import React from "react";
-import "./User.css";
+import "./User.scss";
 import {
   CalendarToday,
   LocationSearching,

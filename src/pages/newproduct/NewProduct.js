@@ -1,5 +1,5 @@
 import React from "react";
-import "./NewProduct.css";
+import "./NewProduct.scss";
 
 const NewProduct = () => {
   return (
