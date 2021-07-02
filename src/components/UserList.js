@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./UserList.scss";
+import "../scss/UserList.scss";
 import { DataGrid } from "@material-ui/data-grid";
 import { DeleteOutline } from "@material-ui/icons";
-import { userRows } from "../../dummyData";
+import { userRows } from "../dummyData";
 import { Link } from "react-router-dom";
 
 const UserList = () => {

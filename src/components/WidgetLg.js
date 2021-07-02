@@ -1,5 +1,5 @@
 import React from "react";
-import "./WidgetLg.scss";
+import "../scss/WidgetLg.scss";
 
 const WidgetLg = () => {
   const Button = ({ type }) => {

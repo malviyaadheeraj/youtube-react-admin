@@ -1,8 +1,8 @@
 import React from "react";
-import "./Login.scss";
-import { auth, provider } from "../../firebase";
+import "../scss/Login.scss";
+import { auth, provider } from "../firebase";
 import { useDispatch } from "react-redux";
-import { login } from "../../features/userSlice";
+import { login } from "../features/userSlice";
 
 const Login = () => {
   const dispatch = useDispatch();

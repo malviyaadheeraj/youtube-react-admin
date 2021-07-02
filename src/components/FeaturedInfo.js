@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeaturedInfo.scss";
+import "../scss/FeaturedInfo.scss";
 import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
 
 const FeaturedInfo = () => {

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Product.scss";
+import "../scss/Product.scss";
 import { Link } from "react-router-dom";
-import Chart from "../../components/chart/Chart";
-import { productData } from "../../dummyData";
+import Chart from "../components/Chart";
+import { productData } from "../dummyData";
 import { Publish } from "@material-ui/icons";
 
 const Product = () => {

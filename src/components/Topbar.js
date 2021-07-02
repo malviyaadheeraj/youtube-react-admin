@@ -1,9 +1,9 @@
 import React from "react";
-import "./Topbar.scss";
+import "../scss/Topbar.scss";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 import { useDispatch, useSelector } from "react-redux";
-import { logout, selectUser } from "../../features/userSlice";
-import { auth } from "../../firebase";
+import { logout, selectUser } from "../features/userSlice";
+import { auth } from "../firebase";
 
 const Topbar = () => {
   const user = useSelector(selectUser);

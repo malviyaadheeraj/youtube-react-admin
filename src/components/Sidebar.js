@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.scss";
+import "../scss/Sidebar.scss";
 import {
   LineStyle,
   Timeline,

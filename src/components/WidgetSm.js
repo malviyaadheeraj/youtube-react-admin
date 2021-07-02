@@ -1,5 +1,5 @@
 import React from "react";
-import "./WidgetSm.scss";
+import "../scss/WidgetSm.scss";
 import { Visibility } from "@material-ui/icons";
 
 const WidgetSm = () => {
